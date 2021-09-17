@@ -1,0 +1,43 @@
+.container{
+    color:white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3rem;
+    
+}
+.ciudad{
+    margin: auto;
+    width: fit-content;
+    background-color:  #d8f5fe2f;
+    box-shadow: 0px 0px 10px #808080;
+    transition: all 0.1s ease-out;
+}
+
+.name{
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    color: #4b1985;
+    padding-bottom: 1rem;
+}
+.p{
+    margin: 0.6rem 0;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.cat{
+    font-weight: 600;
+    color: #4b1985;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.imgInfo{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    box-shadow: 0 0 35px rgb(255, 255, 255,0.5);
+    border-radius: 50%;
+    background-color: #4b19859d;
+}
+.info{
+    padding: 1rem 0 1rem 3rem;
+}
